@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TalentoTech - Formación Digital Gratuita</title>
+    <meta name="description"
+        content="Estudios presenciales gratuitos en tecnología: Programación, IA, Datos, Blockchain y más.">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Outfit:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">TalentoTech</div>
+            <nav>
+                <a href="#programas">Programas</a>
+                <a href="#beneficios">Beneficios</a>
+                <a href="#proceso">Proceso</a>
+                <a href="#faq">FAQ</a>
+                <a href="#inscripcion" class="btn btn-primary"
+                    style="padding: 0.5rem 1rem; color: white;">Inscribirse</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Tu Futuro Digital Comienza Aquí</h1>
+                    <p>Formación presencial y gratuita en las tecnologías más demandadas del mercado. Únete a la
+                        revolución digital con TalentoTech.</p>
+                    <div
+                        style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; @media(min-width: 768px){justify-content: flex-start;}">
+                        <button onclick="document.getElementById('inscripcion').scrollIntoView()"
+                            class="btn btn-primary">Inscribirme Ahora</button>
+                        <a href="#programas" class="btn" style="background: white; border: 1px solid var(--border);">Ver
+                            Programas</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1000&auto=format&fit=crop"
+                        alt="Estudiantes de tecnología colaborando">
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section id="programas" class="section container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2>Nuestros Programas</h2>
+                <p>Domina las habilidades del futuro con nuestros bootcamps intensivos.</p>
+            </div>
+            <div class="grid grid-3">
+                <div class="card program-card">
+                    <img src="full_stack_web.png" alt="Programación Web Full Stack">
+                    <h3>Programación Web Full Stack</h3>
+                    <p>El bootcamp de Programación te proporcionará habilidades esenciales para el desarrollo de
+                        software, desde la creación de aplicaciones web hasta la gestión de bases de datos.</p>
+                </div>
+                <div class="card program-card">
+                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80"
+                        alt="Inteligencia Artificial">
+                    <h3>Inteligencia Artificial</h3>
+                    <p>El bootcamp de Inteligencia Artificial te sumergirá en el mundo de la IA, ofreciendo una
+                        comprensión profunda de las tecnologías de aprendizaje automático y procesamiento del lenguaje
+                        natural.</p>
+                </div>
+                <div class="card program-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80" alt="Análisis de Datos">
+                    <h3>Análisis de Datos</h3>
+                    <p>El bootcamp de Análisis de Datos te dotará de habilidades cruciales para extraer conocimientos
+                        significativos de grandes conjuntos de datos.</p>
+                </div>
+                <div class="card program-card">
+                    <img src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80" alt="Blockchain">
+                    <h3>Blockchain</h3>
+                    <p>El bootcamp de Blockchain te sumergirá en el fascinante mundo de la tecnología de bloques,
+                        ofreciendo una comprensión profunda de las transacciones seguras y descentralizadas.</p>
+                </div>
+                <div class="card program-card">
+                    <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80"
+                        alt="Arquitectura en la Nube">
+                    <h3>Arquitectura en la Nube</h3>
+                    <p>El Bootcamp de formación en Arquitectura en la Nube te preparará para diseñar y gestionar
+                        entornos tecnológicos escalables y eficientes en la nube.</p>
+                </div>
+                <div class="card program-card">
+                    <img src="ciberseguridad.png" alt="Ciberseguridad">
+                    <h3>Ciberseguridad</h3>
+                    <p>El bootcamp de ciberseguridad te capacitará sobre protección de redes, manejo de incidentes,
+                        criptografía y defensa contra ciberataques para asegurar sistemas informáticos eficazmente.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="beneficios" class="section" style="background: var(--surface);">
+            <div class="container">
+                <div style="text-align: center; margin-bottom: 3rem;">
+                    <h2>¿Por qué elegir TalentoTech?</h2>
+                    <p>Beneficios diseñados para impulsar tu carrera profesional.</p>
+                </div>
+                <div class="grid grid-3">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">💰</div>
+                        <h3>100% Gratuito</h3>
+                        <p>Becas completas financiadas por el Ministerio TIC. Sin costos ocultos.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🎓</div>
+                        <h3>Certificación Oficial</h3>
+                        <p>Recibe un certificado reconocido al completar tu formación satisfactoriamente.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🚀</div>
+                        <h3>Enfoque Práctico</h3>
+                        <p>Aprende haciendo con proyectos reales que podrás incluir en tu portafolio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="proceso" class="section container">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2>Tu Camino al Éxito</h2>
+                <p>Sigue estos simples pasos para ser parte del programa.</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <h3>Inscripción</h3>
+                    <p>Completa el formulario con tus datos personales.</p>
+                </div>
+                <div class="process-step">
+                    <h3>Prueba Técnica</h3>
+                    <p>Demuestra tus conocimientos básicos y lógica.</p>
+                </div>
+                <div class="process-step">
+                    <h3>Entrevista</h3>
+                    <p>Conocemos tu perfil y motivación para el curso.</p>
+                </div>
+                <div class="process-step">
+                    <h3>Inicio de Clases</h3>
+                    <p>¡Bienvenido! Comienza tu formación intensiva.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section container" style="max-width: 800px;">
+            <div style="text-align: center; margin-bottom: 3rem;">
+                <h2>Preguntas Frecuentes</h2>
+            </div>
+            <details>
+                <summary>¿El curso tiene algún costo?</summary>
+                <p>No, el programa es totalmente gratuito, financiado por el gobierno para impulsar el talento digital.
+                </p>
+            </details>
+            <details>
+                <summary>¿Cuánto dura el programa?</summary>
+                <p>La duración varía entre 12 y 24 semanas dependiendo de la intensidad y el programa específico.</p>
+            </details>
+            <details>
+                <summary>¿Necesito experiencia previa?</summary>
+                <p>Para algunos programas de nivel básico no es necesaria experiencia previa, aunque conocimientos de
+                    lógica son útiles. Los niveles avanzados pueden requerir conocimientos previos.</p>
+            </details>
+            <details>
+                <summary>¿Es virtual o presencial?</summary>
+                <p>La modalidad principal es presencial para garantizar un aprendizaje práctico y colaborativo, aunque
+                    puede haber componentes híbridos.</p>
+            </details>
+        </section>
+
+        <!-- Registration Section -->
+        <section id="inscripcion" class="section" style="background: var(--surface);">
+            <div class="container form-container">
+                <div class="card">
+                    <div style="text-align: center; margin-bottom: 2rem;">
+                        <h2>Inscríbete Ahora</h2>
+                        <p>Cupos limitados. Asegura tu lugar hoy mismo.</p>
+                    </div>
+                    <form action="https://formspree.io/f/xpwgvpkq" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" required
+                                placeholder="Tu número de contacto">
+                        </div>
+                        <div class="form-group">
+                            <label for="programa">Programa de Interés</label>
+                            <select id="programa" name="programa">
+                                <option>Programación Web Full Stack</option>
+                                <option>Inteligencia Artificial</option>
+                                <option>Análisis de Datos</option>
+                                <option>Blockchain</option>
+                                <option>Arquitectura en la Nube</option>
+                                <option>Ciberseguridad</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="motivacion">¿Por qué quieres estudiar con nosotros?</label>
+                            <textarea id="motivacion" name="motivacion" rows="4"
+                                placeholder="Cuéntanos tu motivación..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar
+                            Solicitud</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <h3>TalentoTech</h3>
+            <p>Una iniciativa del Ministerio de Tecnologías de la Información y las Comunicaciones.</p>
+            <p style="font-size: 0.875rem; margin-top: 2rem;">© 2024 TalentoTech. Todos los derechos
+                reservados.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        (function () { if (!window.chatbase || window.chatbase("getState") !== "initialized") { window.chatbase = (...arguments) => { if (!window.chatbase.q) { window.chatbase.q = [] } window.chatbase.q.push(arguments) }; window.chatbase = new Proxy(window.chatbase, { get(target, prop) { if (prop === "q") { return target.q } return (...args) => target(prop, ...args) } }) } const onLoad = function () { const script = document.createElement("script"); script.src = "https://www.chatbase.co/embed.min.js"; script.id = "7ZrTZcWmXKsigH-EDdRnb"; script.domain = "www.chatbase.co"; document.body.appendChild(script) }; if (document.readyState === "complete") { onLoad() } else { window.addEventListener("load", onLoad) } })();
+    </script>
+
+    <!-- VAPI Widget -->
+    <vapi-widget public-key=115ec70a-e6a9-4690-8683-060d2b0b230d assistant-id=8996de7d-51df-4beb-9a2e-7f06f36f79ec
+        mode="voice" theme="dark" base-bg-color="#000000" accent-color="#14B8A6" cta-button-color="#000000"
+        cta-button-text-color="#ffffff" border-radius="large" size="full" position="bottom-right" title="TALK WITH AI"
+        start-button-text="Start" end-button-text="End Call" chat-first-message="Hey, How can I help you today?"
+        chat-placeholder="Type your message..." voice-show-transcript="true" consent-required="true"
+        consent-title="Terms and conditions"
+        consent-content="By clicking &quot;Agree,&quot; and each time I interact with this AI agent, I consent to the recording, storage, and sharing of my communications with third-party service providers, and as otherwise described in our Terms of Service."
+        consent-storage-key="vapi_widget_consent">
+    </vapi-widget>
+
+    <!-- VAPI Script -->
+    <script src="https://unpkg.com/@vapi-ai/client-sdk-react/dist/embed/widget.umd.js" async type="text/javascript">
+    </script>
+</body>
+
+</html>
